@@ -43,6 +43,21 @@ html>body .content {
     z-index: 1000;
 }
 
+.fname{
+	/*font-family: sans-Serif,Arial;*/
+	font-style: normal;
+	font-size: 72px;
+	font-weight: 400;
+	color:black;
+	padding: 300px;
+}
+.flip-name{
+	color: white;	
+  display: inline-block;
+  transform: scaleX(-1); /* standard */
+  filter: FlipH; /* IE 6/7/8 */
+}
+
 #navbar{
   position: fixed;
   background-color: #FFF;
