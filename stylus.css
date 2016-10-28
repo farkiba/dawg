@@ -20,6 +20,16 @@ html>body .content {
     src: url(http://social-fonts.com/assets/fonts/corporate-a-bq/corporate-a-bq.ttf);
 }
 
+#home{
+	background: linear-gradient(
+    to right, 
+    #000000 0%, 
+    #000000 50%, 
+    #ffffff 50%, 
+    #ffffff 100%);
+	text-align: center;
+}
+
 #home h1{
 	  position: absolute;
   	top: 40%;
