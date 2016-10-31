@@ -84,7 +84,7 @@ a{
 	float: right;
 	width: 50%;
 	height: auto;
-	margin-top: 3px;
+	margin-top: 5px;
 }
 
 #about p{
@@ -100,7 +100,7 @@ a{
   color: #404040;
 }
 
-.xp p{
+/*.xp p{
   position:relative;
   font-family: Merc;
   src: url(http://social-fonts.com/assets/fonts/corporate-a-bq/corporate-a-bq.ttf);
@@ -111,7 +111,10 @@ a{
   padding-top:5em;
   color: #404040;
 }
-
+*/
+#work{
+  background-color: #e6fff5;
+}
 #work img{
   padding-top: 8em;
 }
@@ -314,4 +317,5 @@ a{
   margin:-0.5em 175px 75px 175px;
   padding-top:10em;
   color: #404040;
+	background-color: #ccebff;
 }
