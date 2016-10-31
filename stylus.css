@@ -80,6 +80,12 @@ a{
   color: #5a5a5a;
 }
 
+.medium-image{
+	float: right;
+	width: 50%;
+	height: auto;
+}
+
 #about p{
   /*font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;*/
   position:relative;
