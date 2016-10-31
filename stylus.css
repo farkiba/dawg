@@ -28,6 +28,7 @@ html>body .content {
     #ffffff 50%, 
     #ffffff 100%);
 	text-align: center;
+	display:inline-block;
 }
 
 #home h1{
@@ -87,6 +88,9 @@ a{
 	margin-top: 10px;
 }
 
+#about{
+	display:inline-block;
+}
 #about p{
   /*font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;*/
   position:relative;
