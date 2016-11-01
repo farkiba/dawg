@@ -20,38 +20,23 @@ html>body .content {
     src: url(http://social-fonts.com/assets/fonts/corporate-a-bq/corporate-a-bq.ttf);
 }
 
-#home{
-	background: linear-gradient(
+.home{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#one{
+  background: linear-gradient(
     to right, 
     #000000 0%, 
     #000000 50%, 
     #ffffff 50%, 
     #ffffff 100%);
-	text-align: center;
-	display:inline-block;
+    font-size: 8em;
 }
 
-#home h1{
-	  position: absolute;
-  	top: 40%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	font-family: Merc;
-  	color:#191919;
-    font-size: 60px;
-    letter-spacing: -.3px;
-    font-weight: 100;
-    z-index: 1000;
-}
-
-.fname{
-	/*font-family: sans-Serif,Arial;*/
-	font-style: normal;
-	font-size: 72px;
-	font-weight: 400;
-	color:black;
-	padding: 300px;
-}
 .flip-name{
 	color: white;	
   display: inline-block;
